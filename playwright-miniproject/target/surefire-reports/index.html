@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Playwright_Test_MiniProject" class="navigator-link">
+              <span class="suite-name border-passed">Playwright Test MiniProject</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Playwright_Test_MiniProject" class="navigator-link ">
+                    <span>C:\Users\vanshil\playwright-miniproject\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Playwright_Test_MiniProject" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Playwright_Test_MiniProject" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Playwright_Test_MiniProject" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Playwright_Test_MiniProject" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Playwright_Test_MiniProject" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Playwright_Test_MiniProject" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Playwright_Test_MiniProject" class="hide-methods passed suite-Playwright_Test_MiniProject"> (hide)</a> <!-- hide-methods passed suite-Playwright_Test_MiniProject -->
+                      <a href="#" panel-name="suite-Playwright_Test_MiniProject" class="show-methods passed suite-Playwright_Test_MiniProject"> (show)</a> <!-- show-methods passed suite-Playwright_Test_MiniProject -->
+                    </span>
+                    <div class="method-list-content passed suite-Playwright_Test_MiniProject">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Playwright_Test_MiniProject" title="tests.ToDoFooterTest" class="method navigator-link" hash-for-method="activeToDo">activeToDo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Playwright_Test_MiniProject" title="tests.ToDoTextboxTest" class="method navigator-link" hash-for-method="addEmptyTodo">addEmptyTodo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Playwright_Test_MiniProject" title="tests.ToDoTextboxTest" class="method navigator-link" hash-for-method="addMultipleTodos">addMultipleTodos</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Playwright_Test_MiniProject" title="tests.ToDoTextboxTest" class="method navigator-link" hash-for-method="addSpacesTodo">addSpacesTodo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Playwright_Test_MiniProject" title="tests.ToDoTextboxTest" class="method navigator-link" hash-for-method="addSpecialCharacters">addSpecialCharacters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Playwright_Test_MiniProject" title="tests.ToDoListTest" class="method navigator-link" hash-for-method="checkMultipleToDo">checkMultipleToDo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Playwright_Test_MiniProject" title="tests.ToDoListTest" class="method navigator-link" hash-for-method="checkSingleToDo">checkSingleToDo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Playwright_Test_MiniProject" title="tests.ToDoFooterTest" class="method navigator-link" hash-for-method="clearCompletedToDo">clearCompletedToDo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Playwright_Test_MiniProject" title="tests.ToDoFooterTest" class="method navigator-link" hash-for-method="completedToDo">completedToDo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Playwright_Test_MiniProject" title="tests.ToDoTextboxTest" class="method navigator-link" hash-for-method="pressEnterDirectly">pressEnterDirectly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Playwright_Test_MiniProject" title="tests.ToDoListTest" class="method navigator-link" hash-for-method="removeToDo">removeToDo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Playwright_Test_MiniProject" title="tests.ToDoListTest" class="method navigator-link" hash-for-method="uncheckMultipleToDo">uncheckMultipleToDo</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Playwright_Test_MiniProject -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Playwright_Test_MiniProject" class="panel Playwright_Test_MiniProject">
+          <div class="suite-Playwright_Test_MiniProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ToDoFooterTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="activeToDo">
+                  </a> <!-- activeToDo -->
+                  <span class="method-name">activeToDo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="clearCompletedToDo">
+                  </a> <!-- clearCompletedToDo -->
+                  <span class="method-name">clearCompletedToDo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="completedToDo">
+                  </a> <!-- completedToDo -->
+                  <span class="method-name">completedToDo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Playwright_Test_MiniProject-class-passed -->
+          <div class="suite-Playwright_Test_MiniProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ToDoListTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkMultipleToDo">
+                  </a> <!-- checkMultipleToDo -->
+                  <span class="method-name">checkMultipleToDo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="checkSingleToDo">
+                  </a> <!-- checkSingleToDo -->
+                  <span class="method-name">checkSingleToDo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="removeToDo">
+                  </a> <!-- removeToDo -->
+                  <span class="method-name">removeToDo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="uncheckMultipleToDo">
+                  </a> <!-- uncheckMultipleToDo -->
+                  <span class="method-name">uncheckMultipleToDo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Playwright_Test_MiniProject-class-passed -->
+          <div class="suite-Playwright_Test_MiniProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">tests.ToDoTextboxTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addEmptyTodo">
+                  </a> <!-- addEmptyTodo -->
+                  <span class="method-name">addEmptyTodo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addMultipleTodos">
+                  </a> <!-- addMultipleTodos -->
+                  <span class="method-name">addMultipleTodos</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addSpacesTodo">
+                  </a> <!-- addSpacesTodo -->
+                  <span class="method-name">addSpacesTodo</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="addSpecialCharacters">
+                  </a> <!-- addSpecialCharacters -->
+                  <span class="method-name">addSpecialCharacters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="pressEnterDirectly">
+                  </a> <!-- pressEnterDirectly -->
+                  <span class="method-name">pressEnterDirectly</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Playwright_Test_MiniProject-class-passed -->
+        </div> <!-- panel Playwright_Test_MiniProject -->
+        <div panel-name="test-xml-Playwright_Test_MiniProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\vanshil\playwright-miniproject\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Playwright Test MiniProject&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;ToDo Textbox Test&quot; verbose=&quot;0&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;tests.ToDoTextboxTest&quot;/&gt;
+      &lt;class name=&quot;tests.ToDoListTest&quot;/&gt;
+      &lt;class name=&quot;tests.ToDoFooterTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- ToDo Textbox Test --&gt;
+&lt;/suite&gt; &lt;!-- Playwright Test MiniProject --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Playwright_Test_MiniProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Playwright Test MiniProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">ToDo Textbox Test (3 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Playwright_Test_MiniProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Playwright Test MiniProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Playwright_Test_MiniProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Playwright Test MiniProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Playwright_Test_MiniProject');
+function tableData_Playwright_Test_MiniProject() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'uncheckMultipleToDo')
+data.setCell(0, 2, 'tests.ToDoListTest')
+data.setCell(0, 3, 8902);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'checkMultipleToDo')
+data.setCell(1, 2, 'tests.ToDoListTest')
+data.setCell(1, 3, 7576);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'completedToDo')
+data.setCell(2, 2, 'tests.ToDoFooterTest')
+data.setCell(2, 3, 7405);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'activeToDo')
+data.setCell(3, 2, 'tests.ToDoFooterTest')
+data.setCell(3, 3, 7264);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'checkSingleToDo')
+data.setCell(4, 2, 'tests.ToDoListTest')
+data.setCell(4, 3, 6630);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'removeToDo')
+data.setCell(5, 2, 'tests.ToDoListTest')
+data.setCell(5, 3, 6529);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'clearCompletedToDo')
+data.setCell(6, 2, 'tests.ToDoFooterTest')
+data.setCell(6, 3, 6487);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'addMultipleTodos')
+data.setCell(7, 2, 'tests.ToDoTextboxTest')
+data.setCell(7, 3, 5314);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'addEmptyTodo')
+data.setCell(8, 2, 'tests.ToDoTextboxTest')
+data.setCell(8, 3, 4492);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'addSpecialCharacters')
+data.setCell(9, 2, 'tests.ToDoTextboxTest')
+data.setCell(9, 3, 4409);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'pressEnterDirectly')
+data.setCell(10, 2, 'tests.ToDoTextboxTest')
+data.setCell(10, 3, 3133);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'addSpacesTodo')
+data.setCell(11, 2, 'tests.ToDoTextboxTest')
+data.setCell(11, 3, 2902);
+window.suiteTableData['Playwright_Test_MiniProject']= { tableData: data, tableDiv: 'times-div-Playwright_Test_MiniProject'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-Playwright_Test_MiniProject">
+              </div> <!-- times-div-Playwright_Test_MiniProject -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Playwright_Test_MiniProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Playwright Test MiniProject</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Playwright_Test_MiniProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Playwright_Test_MiniProject" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ToDoTextboxTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.ToDoTextboxTest.addEmptyTodo())</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addEmptyTodo</span>
+                <span class="method-start">27364 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=addEmptyTodo status=SUCCESS method=ToDoTextboxTest.addEmptyTodo()[pri:0, instance:t...)</span>
+                <span class="method-start">31862 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.ToDoTextboxTest.addMultipleTodos())</span>
+                <span class="method-start">33578 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addMultipleTodos</span>
+                <span class="method-start">35999 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=addMultipleTodos status=SUCCESS method=ToDoTextboxTest.addMultipleTodos()[pri:0, in...)</span>
+                <span class="method-start">41315 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.ToDoTextboxTest.addSpacesTodo())</span>
+                <span class="method-start">42060 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addSpacesTodo</span>
+                <span class="method-start">44826 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=addSpacesTodo status=SUCCESS method=ToDoTextboxTest.addSpacesTodo()[pri:0, instance...)</span>
+                <span class="method-start">47729 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.ToDoTextboxTest.addSpecialCharacters())</span>
+                <span class="method-start">48550 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addSpecialCharacters</span>
+                <span class="method-start">50627 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=addSpecialCharacters status=SUCCESS method=ToDoTextboxTest.addSpecialCharacters()[p...)</span>
+                <span class="method-start">55037 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.ToDoTextboxTest.pressEnterDirectly())</span>
+                <span class="method-start">55824 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">pressEnterDirectly</span>
+                <span class="method-start">58085 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=pressEnterDirectly status=SUCCESS method=ToDoTextboxTest.pressEnterDirectly()[pri:0...)</span>
+                <span class="method-start">61220 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ToDoListTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.ToDoListTest.checkMultipleToDo())</span>
+                <span class="method-start">61940 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkMultipleToDo</span>
+                <span class="method-start">64349 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=checkMultipleToDo status=SUCCESS method=ToDoListTest.checkMultipleToDo()[pri:0, ins...)</span>
+                <span class="method-start">71925 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.ToDoListTest.checkSingleToDo())</span>
+                <span class="method-start">72614 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">checkSingleToDo</span>
+                <span class="method-start">75098 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=checkSingleToDo status=SUCCESS method=ToDoListTest.checkSingleToDo()[pri:0, instanc...)</span>
+                <span class="method-start">81730 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.ToDoListTest.removeToDo())</span>
+                <span class="method-start">83038 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">removeToDo</span>
+                <span class="method-start">86457 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=removeToDo status=SUCCESS method=ToDoListTest.removeToDo()[pri:0, instance:tests.To...)</span>
+                <span class="method-start">92987 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.ToDoListTest.uncheckMultipleToDo())</span>
+                <span class="method-start">93668 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">uncheckMultipleToDo</span>
+                <span class="method-start">96222 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=uncheckMultipleToDo status=SUCCESS method=ToDoListTest.uncheckMultipleToDo()[pri:0,...)</span>
+                <span class="method-start">105125 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">tests.ToDoFooterTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.ToDoFooterTest.activeToDo())</span>
+                <span class="method-start">105901 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">activeToDo</span>
+                <span class="method-start">108477 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=activeToDo status=SUCCESS method=ToDoFooterTest.activeToDo()[pri:0, instance:tests....)</span>
+                <span class="method-start">115742 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.ToDoFooterTest.clearCompletedToDo())</span>
+                <span class="method-start">116449 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">clearCompletedToDo</span>
+                <span class="method-start">118860 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=clearCompletedToDo status=SUCCESS method=ToDoFooterTest.clearCompletedToDo()[pri:0,...)</span>
+                <span class="method-start">125347 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void tests.ToDoFooterTest.completedToDo())</span>
+                <span class="method-start">125995 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">completedToDo</span>
+                <span class="method-start">128479 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">teardown([TestResult name=completedToDo status=SUCCESS method=ToDoFooterTest.completedToDo()[pri:0, instance:...)</span>
+                <span class="method-start">135885 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

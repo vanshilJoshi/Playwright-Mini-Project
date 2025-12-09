@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="12" passed="12" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-09T20:58:17 IST" name="Playwright Test MiniProject" finished-at="2025-12-09T21:00:34 IST" duration-ms="136832">
+    <groups>
+    </groups>
+    <test started-at="2025-12-09T20:58:17 IST" name="ToDo Textbox Test" finished-at="2025-12-09T21:00:34 IST" duration-ms="136832">
+      <class name="tests.ToDoFooterTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ToDoFooterTest@c33b74f]" started-at="2025-12-09T21:00:03 IST" name="setup" finished-at="2025-12-09T21:00:06 IST" duration-ms="2575" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ToDoFooterTest.activeToDo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="activeToDo()[pri:0, instance:tests.ToDoFooterTest@c33b74f]" started-at="2025-12-09T21:00:06 IST" name="activeToDo" finished-at="2025-12-09T21:00:13 IST" duration-ms="7264" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- activeToDo -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ToDoFooterTest@c33b74f]" started-at="2025-12-09T21:00:13 IST" name="teardown" finished-at="2025-12-09T21:00:14 IST" duration-ms="706" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=activeToDo status=SUCCESS method=ToDoFooterTest.activeToDo()[pri:0, instance:tests.ToDoFooterTest@c33b74f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ToDoFooterTest@c33b74f]" started-at="2025-12-09T21:00:14 IST" name="setup" finished-at="2025-12-09T21:00:16 IST" duration-ms="2410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ToDoFooterTest.clearCompletedToDo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="clearCompletedToDo()[pri:0, instance:tests.ToDoFooterTest@c33b74f]" started-at="2025-12-09T21:00:16 IST" name="clearCompletedToDo" finished-at="2025-12-09T21:00:23 IST" duration-ms="6487" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearCompletedToDo -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ToDoFooterTest@c33b74f]" started-at="2025-12-09T21:00:23 IST" name="teardown" finished-at="2025-12-09T21:00:23 IST" duration-ms="647" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=clearCompletedToDo status=SUCCESS method=ToDoFooterTest.clearCompletedToDo()[pri:0, instance:tests.ToDoFooterTest@c33b74f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ToDoFooterTest@c33b74f]" started-at="2025-12-09T21:00:23 IST" name="setup" finished-at="2025-12-09T21:00:26 IST" duration-ms="2484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ToDoFooterTest.completedToDo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="completedToDo()[pri:0, instance:tests.ToDoFooterTest@c33b74f]" started-at="2025-12-09T21:00:26 IST" name="completedToDo" finished-at="2025-12-09T21:00:33 IST" duration-ms="7405" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- completedToDo -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ToDoFooterTest@c33b74f]" started-at="2025-12-09T21:00:33 IST" name="teardown" finished-at="2025-12-09T21:00:34 IST" duration-ms="805" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=completedToDo status=SUCCESS method=ToDoFooterTest.completedToDo()[pri:0, instance:tests.ToDoFooterTest@c33b74f] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.ToDoFooterTest -->
+      <class name="tests.ToDoTextboxTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:58:17 IST" name="setup" finished-at="2025-12-09T20:58:45 IST" duration-ms="27357" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ToDoTextboxTest.addEmptyTodo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addEmptyTodo()[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:58:45 IST" name="addEmptyTodo" finished-at="2025-12-09T20:58:49 IST" duration-ms="4492" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmptyTodo -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:58:49 IST" name="teardown" finished-at="2025-12-09T20:58:51 IST" duration-ms="1714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addEmptyTodo status=SUCCESS method=ToDoTextboxTest.addEmptyTodo()[pri:0, instance:tests.ToDoTextboxTest@4b0b0854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:58:51 IST" name="setup" finished-at="2025-12-09T20:58:53 IST" duration-ms="2421" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ToDoTextboxTest.addMultipleTodos()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addMultipleTodos()[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:58:53 IST" name="addMultipleTodos" finished-at="2025-12-09T20:58:58 IST" duration-ms="5314" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addMultipleTodos -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:58:58 IST" name="teardown" finished-at="2025-12-09T20:58:59 IST" duration-ms="743" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addMultipleTodos status=SUCCESS method=ToDoTextboxTest.addMultipleTodos()[pri:0, instance:tests.ToDoTextboxTest@4b0b0854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:58:59 IST" name="setup" finished-at="2025-12-09T20:59:02 IST" duration-ms="2766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ToDoTextboxTest.addSpacesTodo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addSpacesTodo()[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:59:02 IST" name="addSpacesTodo" finished-at="2025-12-09T20:59:05 IST" duration-ms="2902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSpacesTodo -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:59:05 IST" name="teardown" finished-at="2025-12-09T20:59:06 IST" duration-ms="820" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addSpacesTodo status=SUCCESS method=ToDoTextboxTest.addSpacesTodo()[pri:0, instance:tests.ToDoTextboxTest@4b0b0854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:59:06 IST" name="setup" finished-at="2025-12-09T20:59:08 IST" duration-ms="2076" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ToDoTextboxTest.addSpecialCharacters()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="addSpecialCharacters()[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:59:08 IST" name="addSpecialCharacters" finished-at="2025-12-09T20:59:12 IST" duration-ms="4409" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSpecialCharacters -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:59:12 IST" name="teardown" finished-at="2025-12-09T20:59:13 IST" duration-ms="786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=addSpecialCharacters status=SUCCESS method=ToDoTextboxTest.addSpecialCharacters()[pri:0, instance:tests.ToDoTextboxTest@4b0b0854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:59:13 IST" name="setup" finished-at="2025-12-09T20:59:15 IST" duration-ms="2261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ToDoTextboxTest.pressEnterDirectly()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="pressEnterDirectly()[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:59:15 IST" name="pressEnterDirectly" finished-at="2025-12-09T20:59:18 IST" duration-ms="3133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pressEnterDirectly -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ToDoTextboxTest@4b0b0854]" started-at="2025-12-09T20:59:18 IST" name="teardown" finished-at="2025-12-09T20:59:19 IST" duration-ms="712" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=pressEnterDirectly status=SUCCESS method=ToDoTextboxTest.pressEnterDirectly()[pri:0, instance:tests.ToDoTextboxTest@4b0b0854] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.ToDoTextboxTest -->
+      <class name="tests.ToDoListTest">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ToDoListTest@35ef1869]" started-at="2025-12-09T20:59:19 IST" name="setup" finished-at="2025-12-09T20:59:22 IST" duration-ms="2409" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ToDoListTest.checkMultipleToDo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkMultipleToDo()[pri:0, instance:tests.ToDoListTest@35ef1869]" started-at="2025-12-09T20:59:22 IST" name="checkMultipleToDo" finished-at="2025-12-09T20:59:29 IST" duration-ms="7576" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMultipleToDo -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ToDoListTest@35ef1869]" started-at="2025-12-09T20:59:29 IST" name="teardown" finished-at="2025-12-09T20:59:30 IST" duration-ms="688" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkMultipleToDo status=SUCCESS method=ToDoListTest.checkMultipleToDo()[pri:0, instance:tests.ToDoListTest@35ef1869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ToDoListTest@35ef1869]" started-at="2025-12-09T20:59:30 IST" name="setup" finished-at="2025-12-09T20:59:32 IST" duration-ms="2484" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ToDoListTest.checkSingleToDo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="checkSingleToDo()[pri:0, instance:tests.ToDoListTest@35ef1869]" started-at="2025-12-09T20:59:32 IST" name="checkSingleToDo" finished-at="2025-12-09T20:59:39 IST" duration-ms="6630" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSingleToDo -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ToDoListTest@35ef1869]" started-at="2025-12-09T20:59:39 IST" name="teardown" finished-at="2025-12-09T20:59:40 IST" duration-ms="1305" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=checkSingleToDo status=SUCCESS method=ToDoListTest.checkSingleToDo()[pri:0, instance:tests.ToDoListTest@35ef1869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ToDoListTest@35ef1869]" started-at="2025-12-09T20:59:40 IST" name="setup" finished-at="2025-12-09T20:59:44 IST" duration-ms="3419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ToDoListTest.removeToDo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="removeToDo()[pri:0, instance:tests.ToDoListTest@35ef1869]" started-at="2025-12-09T20:59:44 IST" name="removeToDo" finished-at="2025-12-09T20:59:50 IST" duration-ms="6529" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeToDo -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ToDoListTest@35ef1869]" started-at="2025-12-09T20:59:50 IST" name="teardown" finished-at="2025-12-09T20:59:51 IST" duration-ms="679" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=removeToDo status=SUCCESS method=ToDoListTest.removeToDo()[pri:0, instance:tests.ToDoListTest@35ef1869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:tests.ToDoListTest@35ef1869]" started-at="2025-12-09T20:59:51 IST" name="setup" finished-at="2025-12-09T20:59:53 IST" duration-ms="2553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.ToDoListTest.uncheckMultipleToDo()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="uncheckMultipleToDo()[pri:0, instance:tests.ToDoListTest@35ef1869]" started-at="2025-12-09T20:59:53 IST" name="uncheckMultipleToDo" finished-at="2025-12-09T21:00:02 IST" duration-ms="8902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uncheckMultipleToDo -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:tests.ToDoListTest@35ef1869]" started-at="2025-12-09T21:00:02 IST" name="teardown" finished-at="2025-12-09T21:00:03 IST" duration-ms="775" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=uncheckMultipleToDo status=SUCCESS method=ToDoListTest.uncheckMultipleToDo()[pri:0, instance:tests.ToDoListTest@35ef1869] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- tests.ToDoListTest -->
+    </test> <!-- ToDo Textbox Test -->
+  </suite> <!-- Playwright Test MiniProject -->
+</testng-results>
