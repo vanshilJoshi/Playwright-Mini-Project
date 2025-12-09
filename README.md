@@ -1,85 +1,98 @@
-📌 Playwright Mini Project (Java)
+# 📌 Playwright Mini Project (Java)
 
-This repository contains a Playwright Java mini project built using a clean, beginner-friendly automation framework.
-It demonstrates how to use Playwright with Java, TestNG, and the Page Object Model (POM) design.
+A clean and beginner-friendly **Playwright Java automation framework** that demonstrates the essentials of UI automation using **Java**, **Playwright**, **TestNG**, and the **Page Object Model (POM)** design pattern.
 
-⸻
+---
 
-🚀 Features
-	•	Playwright with Java
-	•	Maven project setup
-	•	Page Object Model (POM)
-	•	Reusable BaseTest & Browser setup
-	•	TestNG integration
-	•	Simple, easy-to-understand structure
+## 🚀 Features
 
-⸻
+* ⚡ Playwright automation with Java
+* 📦 Maven-based project setup
+* 🧩 Page Object Model (POM)
+* 🔁 Reusable BaseTest + Browser setup
+* 🧪 TestNG integration
+* 🧹 Clean & simple folder structure
 
-🗂 Project Structure
+---
 
+## 🗂 Project Structure
+
+```
 Playwright-Mini-Project
 │── src
 │   └── main
 │       └── java
-│           ├── base        → BaseTest, Playwright & Browser setup
+│           ├── base        → BaseTest + Playwright & Browser setup
 │           ├── pages       → Page classes (POM)
-│           ├── tests       → Test classes using TestNG
+│           ├── tests       → TestNG test classes
 │           └── utils       → Utility/helper classes
 │
-│── testng.xml              → TestNG suite
+│── testng.xml              → TestNG suite configuration
 │── pom.xml                 → Maven dependencies
 │── README.md               → Documentation
+```
 
+---
 
-⸻
+## ⚙️ Tech Stack
 
-⚙️ Tech Stack
-	•	Language: Java
-	•	Automation Framework: Playwright
-	•	Build Tool: Maven
-	•	Test Runner: TestNG
+* **Language:** Java
+* **Automation Tool:** Playwright
+* **Build Tool:** Maven
+* **Test Runner:** TestNG
 
-⸻
+---
 
-▶️ How to Run Tests
+## ▶️ How to Run Tests
 
-1. Clone the Repository
+### **1. Clone the Repository**
 
+```bash
 git clone https://github.com/vanshilJoshi/Playwright-Mini-Project
+```
 
-2. Open the Project
+### **2. Open in IDE**
 
-Import it into VS Code / Eclipse as a Maven project.
+Import as a **Maven Project** in VS Code / Eclipse / IntelliJ.
 
-3. Install Dependencies
+### **3. Install Dependencies**
 
+```bash
 mvn install
+```
 
-4. Run TestNG Suite
+### **4. Execute Tests**
 
+Run TestNG suite:
+
+```bash
 mvn test
+```
 
-or directly run testng.xml from the IDE.
+OR
+Directly run **testng.xml** from your IDE.
 
-⸻
+---
 
-📚 Learning Outcome
+## 📚 Learning Outcome
 
-This project helps you understand:
-	•	How Playwright works with Java
-	•	How to structure a simple automation framework
-	•	How to use POM (Page Object Model)
-	•	How to write organized and maintainable UI tests
+By using this mini project, you will learn:
 
-⸻
+* ✔ How Playwright works with Java
+* ✔ How to structure a mini automation framework
+* ✔ How POM improves test maintainability
+* ✔ How to create clean & readable UI test scripts
 
-🤝 Contribution
+---
 
-Feel free to fork this project and enhance it. Suggestions are always welcome.
+## 🤝 Contribution
 
-⸻
+Feel free to **fork**, enhance, or suggest improvements. Contributions are always appreciated!
 
-📧 Contact
+---
 
-Vanshil Joshi
-GitHub: github.com/vanshilJoshi
+## 📧 Contact
+
+**Vanshil Joshi**
+🔗 GitHub: [github.com/vanshilJoshi](https://github.com/vanshilJoshi)
+
